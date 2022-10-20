@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class PTBSFacade {
     import java.util.Iterator;
     import java.util.Scanner;
@@ -31,8 +33,16 @@ public class PTBSFacade {
         public void remind(){
 
         }
-        public void createUser(){
-
+        public void createUser(UserInfoItem userinfoitem){
+            int uType = userinfoitem.getUserType();
+            if(uType==0){
+                thePerson = new Buyer(userinfoitem);
+                System.out.println("Buyer");
+            }
+            if(uType==1){
+                thePerson = new Seller(userinfoitem);
+                System.out.println("Seller");
+            }
         }
         public void createProductList(){
 
