@@ -1,5 +1,5 @@
 public class OfferingIterator {
-
+//Iterator Design Pattern
     private OfferingList offeringList;
 
     public boolean hasNext() {
