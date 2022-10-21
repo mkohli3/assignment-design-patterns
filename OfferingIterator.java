@@ -16,6 +16,7 @@ public class OfferingIterator {
 
     public void Remove() {
 
+
     }
 
 }
