@@ -36,6 +36,7 @@ public class Facade {
             else { // if seller
                 trademenu = new SellerTradingMenu();
             }
+            Trading trade;
             trademenu.ShowMenu(trade, thePerson );
         }
         public void decideBidding(){
