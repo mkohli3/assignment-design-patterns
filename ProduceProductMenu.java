@@ -1,5 +1,5 @@
 public class ProduceProductMenu extends ProductMenu {
-
+    //Factory and Bridge Design Pattern
     public void showMenu() {
 
     }

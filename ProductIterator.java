@@ -1,5 +1,5 @@
 public class ProductIterator {
-
+//Iterator Design Pattern
     private ClassProductList classProductList;
 
     public boolean hasNext() {

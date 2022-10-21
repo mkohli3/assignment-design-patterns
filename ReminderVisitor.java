@@ -1,5 +1,5 @@
 public class ReminderVisitor extends NodeVisitor {
-
+//Visitor Design Pattern
     private Reminder m_Reminder;
 
     private ClassProductList classProductList;

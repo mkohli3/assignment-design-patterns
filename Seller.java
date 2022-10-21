@@ -1,4 +1,5 @@
 public class Seller extends Person {
+    //Factory and Bridge Design Pattern
     public Seller(UserInfoItem userinfoitem) {
     }
 
