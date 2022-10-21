@@ -4,4 +4,6 @@ public class Product {
 
     private ClassProductList classProductList;
 
+    public Product(String substring, String substring1) {
+    }
 }

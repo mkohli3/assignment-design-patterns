@@ -1,5 +1,5 @@
 public class ProductMenu {
-    public void showMenu{
+    public void showMenu(){
 
     }
     public void showAddButton(){

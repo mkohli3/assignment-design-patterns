@@ -1,4 +1,5 @@
 public class Person {
+    public int type;
     ProductMenu theProductMenu;
     public void showMenu(){
 
@@ -16,6 +17,7 @@ public class Person {
 
     }
     public ProductMenu CreateProductMenu(){
-
+        ProductMenu p = null;
+        return p;
     }
 }
